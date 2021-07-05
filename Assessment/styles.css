@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin: 0;
+    padding:0;
+    font-family: 'poppins',sans-serif;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+ .items a{  
+    color: #7e8791;
+    text-decoration: none;
+}
+.items a:hover{
+    
+    color: black;
+}
+.sidebar{
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    width: auto;
+  
+    text-align: center;
+    z-index: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;    
+}
+
+.items{
+    color: #7e8791;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.items:hover{
+    font-weight: bold;
+    background-color: #d0e0ed;  
+    border-left:3px ridge transparent;      
+    border-color: #3671cf;
+    color: black;
+    
+   
+}
+
+.name{
+    
+    font-size: 12px;
+    width: 100%;
+}
+.main{
+    display: inline;
+    position: fixed;
+    margin-left: 115px;
+    margin-top: 110px;
+    text-decoration: none;
+    height: 100vh;
+    width: 100%;
+    background-color: #f4f5f7;
+
+   
+}
+.video{
+    position: fixed;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+.video a{
+    color:#7e8791 ;
+}
+.video-text{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+}
+.url{
+    border-radius: 18px ;
+    border:0;
+    padding-left: 20px;
+    width: 50%;
+    height:50px;
+    font-style: bold;
+    margin-left: 20%;
+    margin-top:130px;
+   
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-family: 'Roboto', sans-serif;
+    font-weight:  bold ;
+    
+  }
+.or{
+    position: relative;
+    margin-left: 45%;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  bold ;
+}  
+
+.upload{
+    height: 170px;
+    width: 170px;
+    background-color: #fafafa;
+    border: 0;
+    margin-left: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  bold ;
+    
+}
+.upload a{
+    text-decoration: none;
+}
